@@ -59,19 +59,12 @@ try
         end
     end
     XPosRating=(mx-xCenter)/pixPerCm;
-    results(1,1)=[XPosRating]; %%ÕâÀïÐèÒª¸Ä±äxÔÚloop ÖÐ
+    results(1,1)=[XPosRating]; 
     %    KbStrokeWait;
-   
-    
-    
-    
-    
-    
-    
-    
+     
     
     %% Unexpected Quit
-    while true                                                                                                                                                                  %¿Õ¸ñ¼ü³ÊÏÖÏÂÒ»´Ì¼¤£¬eac¼üÍË³ö
+    while true                                                                                                                                                                  %ç©ºæ ¼é”®å‘ˆçŽ°ä¸‹ä¸€åˆºæ¿€ï¼Œeacé”®é€€å‡º
         [~,~,keyCode]=KbCheck;
         if keyCode(EscapeKey)
             ShowCursor;
